@@ -1,0 +1,86 @@
+.imgs{
+    width: 15vw;
+    margin-left: 19%;
+}
+.h1{
+    margin: 0px;
+    font-weight: 500;
+    line-height: 20px;
+    color: rgb(0, 0, 0);
+    letter-spacing: 0.41px;
+    font-family: HelveticaNeueCyr-Medium;
+    display: inline-block;
+    width: 100%;
+    text-overflow: ellipsis;
+    font-size: 25px;
+    margin-left: 25%;
+}
+.h2{
+    margin: 9px 0px 0px;
+    font-weight: 700;
+    line-height: 22px;
+    color: rgb(48, 155, 66);
+    font-family: HelveticaNeueCyr-Medium;
+    letter-spacing: 0.41px;
+    font-size: 20px;
+    margin-left: 40%;
+}
+.evos{
+    width: 100vw;
+    height: 100vh;
+  display: flex;
+  justify-content: space-around;
+}
+.card3{
+margin-top: 2.5%;
+   background-color:  #ddd6d6;
+    box-shadow: 0px 0px 3px rgb(251, 251, 251);
+    border-radius: 4%;
+    height: 45vh;
+}
+.card3:hover{
+    box-shadow: 3px 3px 3px 3px rgb(105, 105, 105);
+}
+.button{
+    background-color: #f6f8f9;
+    border: 0;
+    outline: none;
+    padding: 13px 0;
+    width: 10vw;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all .2s;
+    margin-left:25%;
+    margin-top: 7%;
+}
+.button:hover{
+    background-color: yellow;
+}
+#Main {
+    height: 100%;
+  }
+  .swiper {
+    width: 100%;
+    height: 100%;
+margin-left: 5%;
+  }
+  
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    height: calc((100% - 30px) / 2) !important;
+  
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .mySwiper{
+    height: 50vh;
+display: flex; 
+flex-wrap: wrap;
+justify-content: space-around;
+
+
+}
