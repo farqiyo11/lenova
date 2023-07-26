@@ -17,6 +17,7 @@ export default class Evos extends Component {
     <MdFastfood className="md3"/>
     <MdFastfood className="md4"/>
     </div>
+    
     <div className={style.text2}>Любимые блюда и восточное гостеприимство</div>
     <div className={style.buttun}>
     <button class={style.NewBanner_btn__kQmI61}>Bizning menyu </button>

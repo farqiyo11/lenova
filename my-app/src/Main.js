@@ -73,7 +73,7 @@ export default class Main extends Component {
                          {
                     this.state.data.map((item) => (      <SwiperSlide>
                         <div className={cards.card3} >
-                     <img className={cards.imgs} src={item.link} alt="" /> <h1 className={cards.h1}>{item.title}</h1><h2 className={cards.h2}>{item.price}</h2>
+                     <img className={cards.imgs} src={item.link} alt=""/> <h1 className={cards.h1}>{item.title}</h1><h2 className={cards.h2}>{item.price}</h2>
                      <button className={cards.button}> sotip olish </button>
                         </div>
                  </SwiperSlide>    ))
